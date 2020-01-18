@@ -10,7 +10,7 @@ Name:           python-gudev
 URL:            http://github.com/nzjrs/python-gudev
 
 Version:        147.2
-Release:        5%{?dist}
+Release:        7%{?dist}
 
 %global srcname nzjrs-python-gudev-%{version}-0-ga9f8dd2
 %global _dirname nzjrs-python-gudev-ee8a644
@@ -56,6 +56,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 147.2-7
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 147.2-6
+- Mass rebuild 2013-12-27
+
 * Tue Nov 05 2013 Kyle McMartin <kyle@fedoraproject.org>
 - Fix FTBFS when using dirname macro.
 
